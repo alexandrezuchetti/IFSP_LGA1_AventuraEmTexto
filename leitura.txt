@@ -1,0 +1,14 @@
+0;OPCAO;TEXTO;NOVO_ESTADO;
+1;0;*Voce entra no boteco vazio, algumas velas dao pouca luz ao local*;0;
+1;0;*No canto da sala, perto de uma cama montada as pressas, um homem bigodudo acena para voce enquanto se aproxima*;0;
+1;0;Ei amigo, voce e um daqueles soldados aventureiros que esta atras do dragao nao e mesmo?;0;
+1;0;*Ele esfrega as maos e sorri um sorriso amarelo*;0;
+1;0;Da pra perceber pela cara inocente e corpo musculoso, voces todos parecem que saíram de uma daquelas historias de fantasia... ;0;
+1;1;Sim, cidadao! Sou um soldado em busca de gloria, e espolios!;2;
+1;2;O que voce quer bigodudo?;2;
+1;3;Nao, voce deve ter me confundido com alguem. *Sair andando*;3;
+2;0;ESSE E O ESTADO 2 DA OPCAO 1 E 2;0;
+2;1;ESSA E A OPCAO 1;3;
+2;2;ESSA E A OPCAO 2;3;
+3;0;O JOGO ACABOU;0;
+3;1;ACABE O JOGO;0;
