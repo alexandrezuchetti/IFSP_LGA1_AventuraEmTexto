@@ -1,0 +1,5 @@
+0;CHANCE;DADO;VIDA;TEXTO;ESTADO_DESTINO
+1;60;0;A magia do bigodudo era forte, nao foi uma luta nada justa. Uma bola de fogo foi tudo que bastou para te desintegrar por completo;99;
+1;100;1;A luta foi ardua, a magia do bigodudo era impressionante. Voce ganha, e procura no corpo os cristais de vida que o velho mencionou;80;
+2;80;0;O bigodudo era forte demais, aparentemente entrar no lar dele nao foi uma boa ideia. Ele agora usa seu cranio como um copo de suco;99;
+2;100;1;O pulo inicial fez com que o bigodudo batesse a cabeca no teto. O bigodudo morre. Voce vasculha o corpo fedorento dele achando os cristais de vida;80;
