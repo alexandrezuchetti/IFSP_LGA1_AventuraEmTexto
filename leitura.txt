@@ -1,4 +1,4 @@
-0;OPCAO;TEXTO;NOVO_ESTADO;LUTA;PAUSA
+﻿0;OPCAO;TEXTO;NOVO_ESTADO;LUTA;PAUSA
 1;0;*A vila monotona tem um ar de tranquilidade, nem parece que estao sendo aterrorizados por um dragao*;0;0;0
 1;0;*Um velho carrancudo esta parado ao lado de um poco, murmurando algo sobre 'os jovens hoje em dia'*;0;0;0
 1;0;*Ele acena com a cabeca para que se aproxime*;0;0;0
@@ -13,14 +13,14 @@
 1;0;A carta diz algo sobre ir pras montanhas. Porque nao anda sem rumo por la e ve o que encontra?;0;0;1
 1;0;Ou se voce quiser mesmo morrer, pode ir lutar com o dragao de maos abanando.;0;0;1
 1;1;Ir para o corrego;3;0;0
-1;2;Ir para a montanha;9;0;0
+1;2;Ir para a montanha;10;0;0
 1;3;Ir para o dragao;20;0;0
 1;4;Se esfaquear com uma colher enferrujada.;87;0;0
 2;0;*A vila continua intacta. Voce se lembra do seu lar anterior e se sente nostalgico*;0;0;1
 2;0;*O velho carrancudo tosse uma tosse tuberculosa e te tira dessa nostalgia*;0;0;0
 2;0;E agora (nome), o que vai ser?;0;0;0
 2;1;Ir para o corrego;3;0;0
-2;2;Ir para a montanha;9;0;0
+2;2;Ir para a montanha;10;0;0
 2;3;Ir para o dragao;20;0;0
 3;0;*Voce desce o corrego e entra no tunel de esgoto, algumas velas dao pouca luz ao local*;0;0;0
 3;0;*Em um canto escuro, perto de uma cama montada as pressas, um homem bigodudo acena para voce enquanto se aproxima*;0;0;0
@@ -52,11 +52,56 @@
 9;0;*O homem, se e que ainda pode ser chamado assim, pula em sua direcao com a agilidade de um rato fedido*;0;0;0
 9;0;Hora de morrer! WREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE;0;0;0
 9;1;Lutar.;2;1;0
+10;0;Chegando no topo da montanha vocÃª encontra um templo misterioso;10;0;0
+10;0;Voce entra no templo e ve uma figura emcapuzada sendo iluminada no centro;10;0;0
+10;0;quando voce se aproxima dela ela revela a Face;10;0;0
+10;0;KANYE WEST !!!!;10;0;0
+10;0;-No-no hard feelings| but these feelings harder!;10;0;0
+10;0;ao ouvir essas palavras voce eh empurrado pra tras por uma forca enorme;10;0;0
+10;0;e bate na porta da entrada com tudo| o que vocÃª vai fazer?;10;0;0
+10;1;OpÃ§Ã£o 1- Tentar resolver na Paz;16;0;0
+10;2;OpÃ§Ã£o 2- Partir pro soco;16;0;0
+10;3;OpÃ§Ã£o 3 - ...;11;0;0
+11;0;VocÃª canta:;11;0;0
+11;0;TRUE LOVE SHOULDN'T BE THIS COMPLICATED;11;0;0
+11;0;Kanye estÃ¡ surpreso| ele percebe que vocÃª tem forÃ§a;11;0;0
+11;0;-Whats a king to a god?;11;0;0
+11;1;OpÃ§Ã£o 1- Dar as costas como um frouxo;16;0;0
+11;2;OpÃ§Ã£o 2- What is a god to a non-believer?;12;0;0
+12;0;-Who don't believe| in anything?;12;0;0
+12;0;Kanye sorri| ele estÃ¡ feliz que finalmente achou alguÃ©m digno;12;0;0
+12;0;Ele estende a mÃ£o| segurando algo envolto em um pedaÃ§o de papel;12;0;0
+12;0;Ele estÃ¡ te oferecendo;12;0;0
+12;1;OpÃ§Ã£o 1- Aceitar;13;0;0
+12;2;OpÃ§Ã£o 2- Recusar;17;0;0
+12;3;OpÃ§Ã£o 3- Oferecer um lanche;14;0;0
+13;0;VocÃª pega o objeto e ouve ele murmurar um feitiÃ§o;13;0;0
+13;0;-He has opened up my vision| Giving me a revelation;15;0;0
+14;0;VocÃª oferece um McDonalds para Kanye;14;0;0
+14;0;Ele fica surpreso;14;0;0
+14;0;-McDonald's is my favorite restaurant;14;0;0
+14;0;-Hey can I get a uhhhhhhhhhhhhh;15;0;0
+15;0;VocÃª comeÃ§a a se desmaterializar e Ã© teletransportado para a Vila;15;0;0
+15;0;Ao olhar para o caminho da montanha| vocÃª percebe que a montanha sumiu;15;0;0
+15;0;Colocando a mÃ£o em seu bolso vocÃª percebe o pequeno item e o desembrulha;15;0;0
+15;0;Revelando a Donda Stone| uma pedra com nÃºmeros ao seu redor que estÃ¡ emanando;15;0;0
+15;0;MÃºsicas do Kanye| vocÃª tambÃ©m lÃª o papel que estava envolto na pedra;15;0;0
+15;0;E descobre os mistÃ©rios do mundo e do universo| como quem estava em Paris.;15;0;0
+15;0;----------- VOCÃŠ ADQUIRIU A DONDA STONE -------------- (Basicamente o Fim da quest);2;0;0
+17;0;VocÃª devia ser mais grato ao receber presentes!;16;0;0
+16;0;Kanye pronuncia sua magia pela sala com muita forÃ§a;16;0;0
+16;0;YOU COULD'VE BEEN SOMEBODY!!;16;0;0
+16;0;VocÃª nÃ£o consegue nem ter reaÃ§Ã£o e do nada percebe que tudo ficou preto;16;0;0
+16;0;Ele destruiu seus sentidos apenas com as palavras| perdeu a batalha de rap;16;0;0
+16;0;E a vida junto.;16;0;0
+16;1;Morrer :(;99;0;0
 80;0;A luta com o homem bigodudo acabou.;0;0;0
 80;1;Voltar ao vilarejo.;2;0;0
 87;0;*O velho arregala os olhos aterrorizado*;0;0;0
 87;0;Meu deus! Voce e maluco! Alguem chame um medico!;0;0;0
 87;1;Morrer.;0;0;0
+97;0;Voce sobe a montanha, mas o templo nao esta mais lá. Voce se sente triste.;0;0;0
+97;1;Voltar para o vilarejo.;2;0;0
 98;0;Voce volta ao corrego, o corpo do que era um homem bigodudo continua la. Seu bigode esta baguncado.;0;0;0
 98;1;Voltar ao vilarejo.;2;0;0
 99;0;===========================================================================================;0;0;0
