@@ -64,6 +64,10 @@ int demonstraEstado(int estado_destino, PLAYER *ptjogador){
 			if (ptjogador->cristais == 1){
 				return 98;
 			}
+		case 10:
+            if (ptjogador->dado == 1){
+				return 97;
+			}
 		
 	}
 	
