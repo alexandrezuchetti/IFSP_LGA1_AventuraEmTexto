@@ -1,11 +1,13 @@
 ﻿0;OPCAO;TEXTO;NOVO_ESTADO;LUTA;PAUSA
 1;0;*A vila monotona tem um ar de tranquilidade, nem parece que estao sendo aterrorizados por um dragao*;0;0;0
 1;0;*Um velho carrancudo esta parado ao lado de um poco, murmurando algo sobre 'os jovens hoje em dia'*;0;0;0
-1;0;*Ele acena com a cabeca para que se aproxime*;0;0;0
-1;0;(nome), que bom que chegou. Tenho informacoes importantes sobre os itens que precisamos para destruir aquela cobra voadora.;0;0;1
-1;0;Infelizmente, como bem sabe, os cristais de vida que o quartel recebeu para sua jornada foram roubados.;0;0;0
+1;0;*Ele olha pra voce, surpreso*;0;0;0
+1;0;Eu podia jurar que voce tinha morrido!;0;0;0
+1;0;Tenho informacoes importantes sobre os itens que precisamos para destruir aquela cobra voadora.;0;0;1
+1;0;Infelizmente, como bem sabe, a contra-espada que o quartel resgatou para sua jornada foi roubada.;0;0;0
 1;0;Suspeitamos das criaturas do esgoto, por causa de rastros que levam ao corrego perto da cidade.;0;0;0
-1;0;O que um monte de ratos fedorentos iriam querer com aqueles cristais ainda e um misterio. Isso não deve ser problema para voce.;0;0;1
+1;0;O que um monte de ratos fedorentos iriam querer com aquele bastao inutil ainda e um misterio.;0;0;0
+1;0;Isso nao deve ser problema para voce.;0;0;1
 1;0;*O velho coca a barba*;0;0;0
 1;0;Recebemos tambem uma carta misteriosa, algo sobre um presente que pode ajudar.;0;0;0
 1;0;Francamente, parece bom demais pra ser verdade, mas precisamos de toda a ajuda que conseguir.;0;0;0
@@ -15,18 +17,18 @@
 1;1;Ir para o corrego;3;0;0
 1;2;Ir para a montanha;10;0;0
 1;3;Ir para o dragao;20;0;0
-1;4;Se esfaquear com uma colher enferrujada.;87;0;0
 2;0;*A vila continua intacta. Voce se lembra do seu lar anterior e se sente nostalgico*;0;0;1
 2;0;*O velho carrancudo tosse uma tosse tuberculosa e te tira dessa nostalgia*;0;0;0
-2;0;E agora (nome), o que vai ser?;0;0;0
+2;0;E agora, o que vai ser?;0;0;1
 2;1;Ir para o corrego;3;0;0
 2;2;Ir para a montanha;10;0;0
 2;3;Ir para o dragao;20;0;0
 3;0;*Voce desce o corrego e entra no tunel de esgoto, algumas velas dao pouca luz ao local*;0;0;0
-3;0;*Em um canto escuro, perto de uma cama montada as pressas, um homem bigodudo acena para voce enquanto se aproxima*;0;0;0
+3;0;*Em um canto escuro, perto de uma saco de dormir, um homem bigodudo acena para voce enquanto se aproxima*;0;0;0
 3;0;Ei amigo, voce e um daqueles soldados aventureiros que esta atras do dragao nao e mesmo?;0;0;1
 3;0;*Ele esfrega as maos e sorri um sorriso amarelo*;0;0;0
-3;0;Da pra perceber pela cara inocente e corpo musculoso, voces todos parecem que sairam de uma daquelas historias de fantasia... ;0;0;1
+3;0;Da pra perceber pela cara inocente e corpo musculoso,;0;0;0
+3;0;Voces todos parecem que sairam de uma daquelas historias de fantasia... ;0;0;1
 3;1;Sim, cidadao! Sou um soldado em busca de gloria, e espolios!;4;0;0
 3;2;O que voce quer bigodudo?;4;0;0
 3;3;Nao, voce deve ter me confundido com alguem. *Sair andando*;5;0;0
@@ -37,72 +39,120 @@
 4;0;Me ajude com essas criaturas, e seu tempo sera bem compensado!;0;0;1
 4;1;Nao diga mais nada, pobre alma! Aniquilarei essas criaturas o mais rapido possivel!;8;0;0
 4;2;Limpar... os esgotos? Voce acha que eu sou idiota?;5;0;0
-5;0;Voce e mais esperto do que eu imaginava (nome), mas nao conseguira escapar.;0;0;0
+5;0;Voce e mais esperto do que eu imaginava, mas nao conseguira escapar.;0;0;1
 5;1;O que?;6;0;0
-6;0;Lorde (dragao) dominara este pais podre!;0;0;0
+6;0;Lorde *o bigodudo arrota palavras impronunciaveis* dominara este pais podre!;0;0;0
 6;0;Levante as maos, imbecil. Hora de morrer!;0;0;1
 6;1;Lutar;1;1;0
 8;0;*Voce se esgueira para dentro do cano de pedra gigante, confiante*;0;0;0
 8;0;*De repente, glifos aparecem ao redor do tunel, uma parede semitransparente se forma atras do homem bigodudo*;0;0;0
 8;0;*O homem alisa seus bigodes, orgulhoso. Seus musculos comecam a crescer, uma calda aparece e um focinho brilhante toma conta de seu rosto*;0;0;1
 8;0;Voce realmente caiu nessa? LIMPAR OS ESGOTOS? Que tipo de emprego seria esse?;0;0;0
-8;0;Meu trabalho e muito melhor. Sou o general que mata herois como voce. Ninguem ira escutar seus gritos, verme.;0;0;1
+8;0;Meu trabalho e acabar com herois como voce, em nome de *ele grita em uma lingua que voce nao entende*.;0;0;1
+8;0;*Ele ergue o cabo de uma espada, sem lamina*;0;0;0
+8;0;Francamente quando me pediram pra roubar essa espada inutil, achei que pelo menos enfrentaria alguem digno de empunha-la.;0;0;1
+8;0;Ele abre a boca, e coloca a espada em sua garganta, engolindo-a;0;0;0
+8;0;Ele sorri com dentes pontiagudos. Ninguem ira escutar seus gritos, verme.;0;0;1
 8;1;Cara, eu devia ter visto essa chegando.;9;0;0
 8;2;Verme e tua mae, aquela mocreia!;9;0;0
 9;0;*O homem, se e que ainda pode ser chamado assim, pula em sua direcao com a agilidade de um rato fedido*;0;0;0
-9;0;Hora de morrer! WREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE;0;0;0
+9;0;Hora de morrer!;0;0;1
+9;0;WREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!;0;0;1
 9;1;Lutar.;2;1;0
-10;0;Chegando no topo da montanha vocÃª encontra um templo misterioso;10;0;0
+10;0;Chegando no topo da montanha voce encontra um templo misterioso;10;0;0
 10;0;Voce entra no templo e ve uma figura emcapuzada sendo iluminada no centro;10;0;0
 10;0;quando voce se aproxima dela ela revela a Face;10;0;0
 10;0;KANYE WEST !!!!;10;0;0
-10;0;-No-no hard feelings| but these feelings harder!;10;0;0
+10;0;-No-no hard feelings, but these feelings harder!;10;0;0
 10;0;ao ouvir essas palavras voce eh empurrado pra tras por uma forca enorme;10;0;0
-10;0;e bate na porta da entrada com tudo| o que vocÃª vai fazer?;10;0;0
-10;1;OpÃ§Ã£o 1- Tentar resolver na Paz;16;0;0
-10;2;OpÃ§Ã£o 2- Partir pro soco;16;0;0
-10;3;OpÃ§Ã£o 3 - ...;11;0;0
-11;0;VocÃª canta:;11;0;0
+10;0;e bate na porta da entrada com tudo, o que voce vai fazer?;10;0;1
+10;1;Tentar resolver na Paz;16;0;0
+10;2;Partir pro soco;16;0;0
+10;3;Cantar com Kanye West, realizando seu sonho de princesa.;11;0;0
+11;0;Voce canta:;11;0;0
 11;0;TRUE LOVE SHOULDN'T BE THIS COMPLICATED;11;0;0
-11;0;Kanye estÃ¡ surpreso| ele percebe que vocÃª tem forÃ§a;11;0;0
-11;0;-Whats a king to a god?;11;0;0
-11;1;OpÃ§Ã£o 1- Dar as costas como um frouxo;16;0;0
-11;2;OpÃ§Ã£o 2- What is a god to a non-believer?;12;0;0
-12;0;-Who don't believe| in anything?;12;0;0
-12;0;Kanye sorri| ele estÃ¡ feliz que finalmente achou alguÃ©m digno;12;0;0
-12;0;Ele estende a mÃ£o| segurando algo envolto em um pedaÃ§o de papel;12;0;0
-12;0;Ele estÃ¡ te oferecendo;12;0;0
-12;1;OpÃ§Ã£o 1- Aceitar;13;0;0
-12;2;OpÃ§Ã£o 2- Recusar;17;0;0
-12;3;OpÃ§Ã£o 3- Oferecer um lanche;14;0;0
-13;0;VocÃª pega o objeto e ouve ele murmurar um feitiÃ§o;13;0;0
-13;0;-He has opened up my vision| Giving me a revelation;15;0;0
-14;0;VocÃª oferece um McDonalds para Kanye;14;0;0
-14;0;Ele fica surpreso;14;0;0
-14;0;-McDonald's is my favorite restaurant;14;0;0
-14;0;-Hey can I get a uhhhhhhhhhhhhh;15;0;0
-15;0;VocÃª comeÃ§a a se desmaterializar e Ã© teletransportado para a Vila;15;0;0
-15;0;Ao olhar para o caminho da montanha| vocÃª percebe que a montanha sumiu;15;0;0
-15;0;Colocando a mÃ£o em seu bolso vocÃª percebe o pequeno item e o desembrulha;15;0;0
-15;0;Revelando a Donda Stone| uma pedra com nÃºmeros ao seu redor que estÃ¡ emanando;15;0;0
-15;0;MÃºsicas do Kanye| vocÃª tambÃ©m lÃª o papel que estava envolto na pedra;15;0;0
-15;0;E descobre os mistÃ©rios do mundo e do universo| como quem estava em Paris.;15;0;0
-15;0;----------- VOCÃŠ ADQUIRIU A DONDA STONE -------------- (Basicamente o Fim da quest);2;0;0
-17;0;VocÃª devia ser mais grato ao receber presentes!;16;0;0
-16;0;Kanye pronuncia sua magia pela sala com muita forÃ§a;16;0;0
+11;0;Kanye esta surpreso, ele percebe que voce tem forca;11;0;0
+11;0;-Whats a king to a god?;11;0;1
+11;1;Dar as costas como um frouxo;16;0;0
+11;2;What is a god to a non-believer?;12;0;0
+12;0;-Who don't believe in anything?;12;0;0
+12;0;Kanye sorri, ele esta feliz que finalmente achou alguem digno;12;0;0
+12;0;Ele estende a mao segurando algo envolto em um pedaco de papel;12;0;0
+12;0;Ele esta te oferecendo;12;0;1
+12;1;Aceitar;3;1;0
+12;2;Recusar;17;0;0
+13;0;Voce pega o objeto e ouve Kanye murmurar um feitico;13;0;0
+13;0;-He has opened up my vision, giving me a revelation;15;0;1
+13;0;Voce comeca a se desmaterializar e teletransportado para a vila;15;0;1
+13;0;Ao olhar para o caminho da montanha, voce percebe que a montanha sumiu;15;0;0
+13;0;Colocando a mao em seu bolso voce percebe o pequeno item e o desembrulha;15;0;0
+13;0;Revelando a Donda Stone, uma pedra com numeros ao seu redor que esta emanando;15;0;0
+13;0;magicas do Kanye West, voce sente algo diferente.;15;0;1
+13;1;Procurar o velho;2;0;0
+17;0;*Kanye coloca a mao na boca, ofendido.*;16;0;0
+16;0;Kanye pronuncia sua magia pela sala com muita forca;16;0;0
 16;0;YOU COULD'VE BEEN SOMEBODY!!;16;0;0
-16;0;VocÃª nÃ£o consegue nem ter reaÃ§Ã£o e do nada percebe que tudo ficou preto;16;0;0
-16;0;Ele destruiu seus sentidos apenas com as palavras| perdeu a batalha de rap;16;0;0
-16;0;E a vida junto.;16;0;0
+16;0;Voce nao consegue nem ter reacao, e do nada percebe que tudo ficou preto;16;0;0
+16;0;Ele destruiu seus sentidos apenas com as palavras, perdeu a batalha de rap.;16;0;0
+16;0;E a vida junto.;16;0;1
 16;1;Morrer :(;99;0;0
+20;0;*Voce escala o vulcao onde o dragao mora, confiante*;0;0;0
+20;0;Voce escuta o rugido do dragao, cada vez mais perto. Ele esta vindo ate voce;0;0;1
+20;1;Se preparar para o combate.;21;0;0
+21;0;O dragao passa reto, e vai direto para o vilarejo;0;0;1
+21;1;Voltar ao vilarejo;50;0;0
+50;0;*No caminho de volta do vilarejo, voce ve fumaca no ceu*;0;0;0
+50;0;*Voce corre, mas chega tarde demais. O vilarejo esta em chamas, o dragao esta deitado sobre o poco da cidade.*;0;0;0
+50;0;*O dragao olha pra voce, e empurra a cabeca do velho em sua direcao com a cauda.*;0;0;1
+50;0;Uma pena, nao e mesmo?;0;0;0
+50;0;Humanos sao todos iguais, cheios de conversa, mas pouca atitude.;0;0;0
+50;0;Ergua sua espada, se tiver uma. Tenha uma morte digna, guerreiro.;0;0;1
+50;1;Erguer a contra-espada;4;1;0
+50;2;Correr o mais rapido que puder;81;0;0
+51;0;*No caminho de volta do vilarejo, voce ve fumaca no ceu*;0;0;0
+51;0;*Voce corre, mas chega tarde demais. O vilarejo esta em chamas, o dragao esta deitado sobre o poco da cidade.*;0;0;0
+51;0;*O dragao olha pra voce, e empurra a cabeca do velho em sua direcao com a cauda.*;0;0;1
+51;0;Uma pena, nao e mesmo?;0;0;0
+51;0;Humanos sao todos iguais, cheios de conversa, mas pouca atitude.;0;0;0
+51;0;Ergua sua espada, se tiver uma. Tenha uma morte digna, guerreiro.;0;0;1
+51;1;Correr o mais rapido que puder;81;0;0
+52;0;*No caminho de volta do vilarejo, voce ve fumaca no ceu*;0;0;0
+52;0;*Voce corre, mas chega tarde demais. O vilarejo esta em chamas, o dragao esta deitado sobre o poco da cidade.*;0;0;0
+52;0;*O dragao olha pra voce, e empurra a cabeca do velho em sua direcao com a cauda.*;0;0;1
+52;0;Uma pena, nao e mesmo?;0;0;0
+52;0;Humanos sao todos iguais, cheios de conversa, mas pouca atitude.;0;0;0
+52;0;Ergua sua espada, se tiver uma. Tenha uma morte digna, guerreiro.;0;0;1
+52;1;Erguer a contra-espada.;53;0;0
+52;2;Correr o mais rapido que puder;81;0;0
+53;0;*O dragao cospe uma bola de fogo quer te incinera por completo*;0;0;1
+53;1;Aceitar que o dragao esta destinado a ganhar.;99;0;0
+54;0;*Voce sente a Donda Stone vibrar e aquecer. A presença do dragao incomoda os espiritos que habitam a pedra*;0;0;1
+54;0;Entendo... o destino nao importa para voce nao e?;0;0;0
+54;0;Por mais poderosa que seja, essa pedra tem suas limitacoes...;0;0;0
+54;0;*O dragao comeca a preparar um ataque em area que nao tem chance de errar*;0;0;1
+54;1;Se esconder atras de uma das casas;60;0;0
+54;2;Chorar pela sua vida;60;0;0
+54;3;Erguer a contra-espada;55;0;0
+55;0;*Voce ergue a espada, no momento em que o dragao cospe um raio vermelho no chao*;0;0;0
+55;0;*A espada absorve a energia que sai do dragao, inutilizando completamente seu ataque, a criatura parece surpresa*;0;0;1
+55;1;Erguer o cabo cintilante em suas maos na direcao do dragao;100;0;0
+55;2;Zoar da cara do dragao;56;0;0
+56;0;Voce faz uma dancinha, mostrando a lingua para o dragao.;0;0;0
+56;0;A espada, que agora tem energia comparavel a tres bombas nucleares, escorrega da sua mao;0;0;0
+56;0;A explosao gerada mata voce, o dragao e tudo num raio de 300 quilometros;0;0;1
+56;1;Voce venceu?;0;0;0
+60;0;O ataque avassalador do dragao destroi voce, o que restou do vilarejo, e metade do continente.;0;0;1
+60;1;Morrer;99;0;0
 80;0;A luta com o homem bigodudo acabou.;0;0;0
 80;1;Voltar ao vilarejo.;2;0;0
-87;0;*O velho arregala os olhos aterrorizado*;0;0;0
-87;0;Meu deus! Voce e maluco! Alguem chame um medico!;0;0;0
-87;1;Morrer.;0;0;0
-97;0;Voce sobe a montanha, mas o templo nao esta mais lá. Voce se sente triste.;0;0;0
+81;0;O dragao alca voo, e pousa em cima de voce.;0;0;0
+81;0;Voce percebe, tarde demais, que covardia nunca e recompensada.;0;0;1
+81;1;Morrer.;99;0;0
+97;0;Voce sobe a montanha, mas o templo nao esta mais lá. Voce se sente triste.;0;0;1
 97;1;Voltar para o vilarejo.;2;0;0
-98;0;Voce volta ao corrego, o corpo do que era um homem bigodudo continua la. Seu bigode esta baguncado.;0;0;0
+98;0;Voce volta ao corrego, o corpo do que era um homem bigodudo continua la. Seu bigode esta baguncado.;0;0;1
 98;1;Voltar ao vilarejo.;2;0;0
-99;0;===========================================================================================;0;0;0
+99;0;-;0;0;1
 99;1;Voce morreu.;0;0;0
+100;0;O dragao morreu, junto com todo o vilarejo.;0;0;1
+100;1;Voce venceu?;0;0;0
