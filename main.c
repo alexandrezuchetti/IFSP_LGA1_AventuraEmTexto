@@ -8,10 +8,13 @@
 //estrutura player (contem nome, vida, variaveis de itens)
 typedef struct {
 	int dado;
-	int cristais;
+	int espada;
 	int vida;
-	char  nome[11];
+//	char  nome[11];
 } PLAYER;
+
+
+
 
 //funcoes do programa
 int interageEstado(int *opcoes, int *destinos, int *lutas, PLAYER *ptjogador);
@@ -30,18 +33,18 @@ int main(){
 	//inventario inicial
 	jogador.dado = 0;
 	jogador.vida = 20;
-	jogador.cristais = 0;
+	jogador.espada = 0;
 	
 	
 	//escolha do nome
-	printf("*Voce caminha em direcao ao vilarejo, sua luta com o dragao esta proxima* \n");
-	printf("*Aquele velho rabujento so precisa te apontar na direcao certa* \n");
-	printf("*Voce pensa que em breve sera um heroi. Herois tem nomes Heroicos. Qual o seu?*\n");
-	scanf("%9s", &jogador.nome);
-
-	
-	printf("%s, um nome de heroi!\n", jogador.nome);
-	
+//	printf("*Voce caminha em direcao ao vilarejo, sua luta com o dragao esta proxima* \n");
+//	printf("*Aquele velho rabujento so precisa te apontar na direcao certa* \n");
+//	printf("*Voce pensa que em breve sera um heroi. Herois tem nomes Heroicos. Qual o seu?*\n");
+//	scanf("%9s", &jogador.nome);
+//
+//	
+//	printf("%s, um nome de heroi!\n", jogador.nome);
+//	
 	//loop do jogo
 	while (gameover==0){
 	estado_destino = demonstraEstado(estado_destino, ptjogador);	
@@ -60,15 +63,29 @@ int demonstraEstado(int estado_destino, PLAYER *ptjogador){
 	//AQUI ELE CHECA SE O ITEM JA FOI CONSEGUIDO e tira o player da interacao se necessario
 	
 	switch(estado_destino){
+		case 2:
+			if (ptjogador->espada == 1 && ptjogador->dado == 1){
+				return 50;
+			}
+			break;
 		case 3:
-			if (ptjogador->cristais == 1){
+			if (ptjogador->espada == 1){
 				return 98;
 			}
+			break;
 		case 10:
             if (ptjogador->dado == 1){
 				return 97;
 			}
-		
+			break;
+		case 50:
+            if (ptjogador->espada == 0){
+				return 51;
+			}
+			else if(ptjogador->dado == 0){
+				return 52;
+			}
+			break;
 	}
 	
 	//variaveis
@@ -110,6 +127,20 @@ int demonstraEstado(int estado_destino, PLAYER *ptjogador){
 				//SE A OPCAO FOR 0, DIALOGO DO PERSONAGEM É PRINTADO
 				strp = strtok(NULL, ";");
 				printf("%s\n", strp);
+				
+				//pula destino
+				strp = strtok(NULL, ";");
+				
+				//pula luta
+				strp = strtok(NULL, ";");
+				
+				//analisa pausa
+				strp = strtok(NULL, ";");
+				if (atoi(strp)){
+					printf("\n...\n\n");
+					getch();
+				}
+				
 			}
 			else {
 				//SE NAO FOR, É ARMAZENADA A OPCAO e o destino E PRINTADA A OPCAO E O TEXTO
@@ -170,7 +201,7 @@ int processaLuta(int estadoluta, PLAYER *ptjogador){
 	//abre o arquivo se der ruim da erro e mata o player
 	fp = fopen("lutas.txt", "r");
 	if (fp == NULL){
-		printf("erro");
+		printf("Arquivo bugado.");
 		return 0;
 		
 	}
@@ -189,6 +220,7 @@ int processaLuta(int estadoluta, PLAYER *ptjogador){
 			strp = strtok(NULL, ";");
 			//se o dado esta no inventario, checa se e a melhor opcao e printa se for o caso
 			if (atoi(strp) == 1 && ptjogador->dado == 1){
+				printf("A Donda Stone vibra, as balancas do destino foram alteradas!\n");
 				strp = strtok(NULL, ";");
 				printf("%s\n", strp);
 				strp = strtok(NULL, ";");
@@ -212,9 +244,11 @@ int processaLuta(int estadoluta, PLAYER *ptjogador){
 	//checa se o estado destino referencia um acontecimento que altera o inventario, adiciona o irem de acordo
 	switch(estadodestino){
 		case 80:
-			ptjogador->cristais = 1;
-		case 7:
+			ptjogador->espada = 1;
+			break;
+		case 13:
 			ptjogador->dado = 1;
+			break;
 			
 	}
 	return estadodestino;
@@ -238,7 +272,7 @@ int interageEstado(int *opcoes, int *destinos, int *lutas, PLAYER *ptjogador){
 	//se a opcao nao e encontrada, ocorre o goto start que reinicia o processo de captura e interpretacao da variavel
 	for (i = 0; i < sizeof(opcoes); i++){
 		if (opcoes[i] == inter_opcao){
-			printf("%d - %d - %d\n", opcoes[i], destinos[i], lutas[i]);
+//			printf("%d - %d - %d\n", opcoes[i], destinos[i], lutas[i]);
 			if (lutas[i] == 1){
 				printf("====================================================\n");
 				return processaLuta(destinos[i], ptjogador);
